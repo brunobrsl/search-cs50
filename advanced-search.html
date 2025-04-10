@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+      <title>Search</title>
+      
+      <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main>
+        <header>
+          <span>
+            <img src="images/google-logo.png" alt="Google logo">
+          </span>
+
+          <div class="header-links">
+            <a href="index.html">Go back to Google Search</a>
+            <a href="images-search.html">Image Search</a>
+          </div>
+        </header>
+
+        <div class="form-title">
+          <h1>Advanced Search</h1>
+        </div>
+
+        <div class="form-container">
+          <form action="https://www.google.com/search">
+            <div class="form-content">
+              <div class="form-label">
+                <span>Find pages with...</span>
+              </div>
+  
+              <div class="form-item">
+                <label for="as_q">all these words:</label>
+                <input type="text" id="as_q" name="as_q">
+              </div>
+  
+              <div class="form-item">
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" id="as_epq" name="as_epq">
+              </div>
+  
+              <div class="form-item">
+                <label for="as_oq">any of these words:</label>
+                <input type="text" id="as_oq" name="as_oq">
+              </div>
+  
+              <div class="form-item">
+                <label for="as_eq">none of these words:</label>
+                <input type="text" id="as_eq" name="as_eq">
+              </div>
+            </div>
+            
+            <input class="submit-button" type="submit" value="Advanced Search">
+          </form>
+
+          <div class="form-description">
+            <div class="description-header">To do this in the search box.</div>
+          
+            <div class="description-example">
+              <div class="example-item">
+                Type the important words: 
+                <span>tri-colour rat terrier</span>
+              </div>
+
+              <div class="example-item">
+                Put exact words in quotes:
+                <span>"rat terrier"</span>
+              </div>
+
+              <div class="example-item">
+                Type <span>OR</span> between all the words you want:
+                <span>miniature OR standard</span>
+              </div>
+
+              <div class="example-item">
+                Put a minus sign just before words that you don't want:
+                <span>-rodent, -"Jack Russell"</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </main>
+    </body>
+</html>
